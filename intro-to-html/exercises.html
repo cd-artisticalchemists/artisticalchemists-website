@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Images and Text boxes</title>
+
+    <style>
+      .images {
+        width: 100%;
+        margin-bottom: 50px;
+      }
+
+      .flex-container {
+        width: 600px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+      }
+
+      .thumbnail-test-7a {
+        width: 300px;
+        height: 200px;
+        object-fit: cover;
+        object-position: top;
+        border-radius: 20px;
+      }
+
+      .thumbnail-test-7b {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        object-position: top;
+      }
+
+      .thumbnail-test-7c {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        object-position: top;
+        border-radius: 500px;
+      }
+
+      .textbox-7d {
+        font-size: 16px;
+        height: 40px;
+        width: 180px;
+        border-radius: 5px;
+        border-width: 1px;
+        border-color: #cccccc;
+        padding-left: 15px;
+      }
+
+      .textbox-7e {
+        font-size: 16px;
+        height: 40px;
+        width: 360px;
+        border-radius: 50px;
+        padding-left: 15px;
+        border-style: none;
+        box-shadow: 0px 0px 10px #bdbdbd;
+      }
+
+      .social-container {
+        font-size: 16px;
+        color: #5e5e5e;
+      }
+
+      .email {
+        margin-top: -10px;
+        font-size: 16px;
+        height: 40px;
+        width: 400px;
+        border-radius: 5px;
+        border-style: solid;
+        border-color: #5e5e5e;
+      }
+
+      .linkedin-button {
+        font-size: 18px;
+        background-color: rgb(87, 111, 176);
+        color: white;
+        width: 400px;
+        border-radius: 50px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border-style: none;
+      }
+      .twitter-card {
+        width: 450px;
+        border-radius: 6px;
+        margin-top: 50px;
+        padding: 12px;
+        box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3);
+      }
+
+      .twitter-avatar {
+        width: 50px;
+        height: 50px;
+        margin-right: 5px;
+        border-radius: 25px;
+        object-fit: cover;
+        object-position: top;
+        vertical-align: middle;
+      }
+
+      .textbox-9e {
+        font-size: 18px;
+        width: 300px;
+        vertical-align: middle;
+        border: none;
+      }
+
+      .twitter-button {
+        font-size: 16px;
+        font-weight: bold;
+        background-color: rgb(29, 155, 240);
+        color: white;
+        border-radius: 50px;
+        padding: 8px 16px;
+        border-style: none;
+        vertical-align: middle;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="images">
+      <img class="thumbnail-test-7a" src="thumbnail-test.webp" alt="">
+    <img class="thumbnail-test-7b" src="thumbnail-test.webp" alt="">
+    <img class="thumbnail-test-7c" src="thumbnail-test.webp" alt="">
+    </div>
+
+    <div class="flex-container">
+      <input class="textbox-7d" type="text" placeholder="Search">
+    <input class="textbox-7e" type="text" placeholder="Search Google or type a URL">
+    </div>
+
+    <div class="social-container">
+      <div class="linkedin-signup">
+        <P>Email</P>
+        <input class="email" type="text">
+        <p>by clicking Agree & Join, you agree to the Privacy Policy.</p>
+        <button class="linkedin-button">Agree & join</button>
+      </div>
+      
+      <div class="twitter-card">
+        <img class="twitter-avatar" src="thumbnail-test.webp" alt="">
+        <input class="textbox-9e" input placeholder="What's happening?">
+        <button class="twitter-button">
+        Tweet
+        </button>
+      </div>
+
+  </body>
+</html>
